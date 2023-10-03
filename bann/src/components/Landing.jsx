@@ -69,7 +69,7 @@ export const Landing = () => {
                 </Typography>
                 </div>
                 <div style={{display:'flex' , flexDirection:'column',justifyContent:'space-between' , padding:'3rem',backgroundColor:'whitesmoke',margin:'3rem', marginTop:'1rem', borderRadius:'2rem' ,border:'solid',boxShadow:'10px 15px 0px black '}}>
-                <Typography variant="h3" sx={{fontWeight:'600', padding:'2rem', textShadow:'0px 0px 0px grey', textAlign:'start'}}>
+                <Typography variant="h3" sx={{fontWeight:'600', padding:'2rem', textShadow:'0px 0px 0px grey', backgroundColor:'lightgrey', borderRadius:'2rem',boxShadow:'10px 15px 0px black',textAlign:'start'}}>
                 Teach with Expertise|
                 </Typography>
                 <Typography variant="h6" sx={{fontWeight:'500' , textAlign:'start' ,padding:'2rem'}}>
