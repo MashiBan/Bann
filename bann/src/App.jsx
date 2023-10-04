@@ -15,7 +15,7 @@ import {
 import axios from "axios";
 import {BASE_URL} from "./config.js";
 import {useEffect} from "react";
-import Footer from './components/footer.jsx';
+import Footer from './components/Footer.jsx';
 import UserDashboard from './components/UserDashboard.jsx';
 
 
