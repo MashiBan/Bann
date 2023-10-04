@@ -1,1 +1,1 @@
-export const BASE_URL = 'https://bann-hkj5.onrender.com:3000';
+export const BASE_URL = 'https://bann-hkj5.onrender.com';
