@@ -3,6 +3,10 @@ const { authenticateJwt, SECRET } = require("../middleware/auth");
 const { User, Course, Admin } = require("../db");
 const router = express.Router();
 
+  router.get("/get", async(req, res) => {
+    res.send("this is innitial get req");
+  })
+
   router.post('/signup', async (req, res) => {
     const { username, password } = req.body;
     const user = await User.findOne({ username });
